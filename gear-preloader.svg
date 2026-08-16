@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 96" role="img" aria-label="Gear2Adhere">
+  <style>
+    .gear-body { fill: #31302f; }
+    .g2a-gear { transform-box: fill-box; transform-origin: center; }
+    .g2a-gear--lg { animation: g2a-ccw 4s linear infinite; }
+    .g2a-gear--md { animation: g2a-cw 5.818s linear infinite; }
+    .g2a-gear--sm { animation: g2a-cw 7.111s linear infinite; }
+    @keyframes g2a-cw { to { transform: rotate(360deg); } }
+    @keyframes g2a-ccw { to { transform: rotate(-360deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .g2a-gear { animation: none; }
+    }
+  </style>
+  <g class="g2a-gear g2a-gear--md" transform="translate(32 30)">
+    <path class="gear-body" d="M 0.00,-22.00 L 5.74,-13.86 L 15.56,-15.56 L 13.86,-5.74 L 22.00,0.00 L 13.86,5.74 L 15.56,15.56 L 5.74,13.86 L 0.00,22.00 L -5.74,13.86 L -15.56,15.56 L -13.86,5.74 L -22.00,0.00 L -13.86,-5.74 L -15.56,-15.56 L -5.74,-13.86 Z"/>
+    <circle r="7" fill="none" stroke="#90d7bd" stroke-width="5"/>
+  </g>
+  <g class="g2a-gear g2a-gear--sm" transform="translate(32 68)">
+    <path class="gear-body" d="M 0.00,-18.00 L 4.59,-11.09 L 12.73,-12.73 L 11.09,-4.59 L 18.00,0.00 L 11.09,4.59 L 12.73,12.73 L 4.59,11.09 L 0.00,18.00 L -4.59,11.09 L -12.73,12.73 L -11.09,4.59 L -18.00,0.00 L -11.09,-4.59 L -12.73,-12.73 L -4.59,-11.09 Z"/>
+    <circle r="5.5" fill="none" stroke="#92918e" stroke-width="4"/>
+  </g>
+  <g class="g2a-gear g2a-gear--lg" transform="translate(86 50)">
+    <path class="gear-body" d="M 0.00,-32.00 L 6.80,-20.92 L 18.81,-25.89 L 17.80,-12.93 L 30.43,-9.89 L 22.00,0.00 L 30.43,9.89 L 17.80,12.93 L 18.81,25.89 L 6.80,20.92 L 0.00,32.00 L -6.80,20.92 L -18.81,25.89 L -17.80,12.93 L -30.43,9.89 L -22.00,0.00 L -30.43,-9.89 L -17.80,-12.93 L -18.81,-25.89 L -6.80,-20.92 Z"/>
+    <circle r="10" fill="none" stroke="#c30729" stroke-width="6"/>
+  </g>
+</svg>
