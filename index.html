@@ -2,337 +2,287 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Ellis Pinaman — Platform Engineer building secure cloud infrastructure, automation, backend platforms, and AI-enabled security systems." />
-  <meta name="theme-color" content="#05080d" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Ellis Pinaman — Platform Engineer building secure cloud infrastructure, automation, and AI systems." />
   <title>Ellis Pinaman — Platform Engineer</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- First-load preloader. The same three-gear mark remains as the interactive site mark. -->
-  <div id="preloader" class="preloader" aria-hidden="true">
-    <div class="preloader-mark">
-      <svg class="gear-logo gear-logo--loader" viewBox="0 0 120 96" aria-hidden="true">
-        <g class="gear gear-md" transform="translate(32 30)">
-          <path d="M0,-22 5.74,-13.86 15.56,-15.56 13.86,-5.74 22,0 13.86,5.74 15.56,15.56 5.74,13.86 0,22 -5.74,13.86 -15.56,15.56 -13.86,5.74 -22,0 -13.86,-5.74 -15.56,-15.56 -5.74,-13.86Z"/>
-          <circle r="7"/>
-        </g>
-        <g class="gear gear-sm" transform="translate(32 68)">
-          <path d="M0,-18 4.59,-11.09 12.73,-12.73 11.09,-4.59 18,0 11.09,4.59 12.73,12.73 4.59,11.09 0,18 -4.59,11.09 -12.73,12.73 -11.09,4.59 -18,0 -11.09,-4.59 -12.73,-12.73 -4.59,-11.09Z"/>
-          <circle r="5.5"/>
-        </g>
-        <g class="gear gear-lg" transform="translate(86 50)">
-          <path d="M0,-32 6.8,-20.92 18.81,-25.89 17.8,-12.93 30.43,-9.89 22,0 30.43,9.89 17.8,12.93 18.81,25.89 6.8,20.92 0,32 -6.8,20.92 -18.81,25.89 -17.8,12.93 -30.43,9.89 -22,0 -30.43,-9.89 -17.8,-12.93 -18.81,-25.89 -6.8,-20.92Z"/>
-          <circle r="10"/>
-        </g>
-      </svg>
-      <div class="preloader-line"><span></span></div>
-    </div>
-  </div>
-
-  <div class="site-grid" aria-hidden="true"></div>
-
+  <div class="noise"></div>
   <header class="site-header">
-    <button class="gear-home" id="gearHome" type="button" aria-label="Home — replay gear animation">
-      <svg class="gear-logo" viewBox="0 0 120 96" aria-hidden="true">
-        <g class="gear gear-md" transform="translate(32 30)">
-          <path d="M0,-22 5.74,-13.86 15.56,-15.56 13.86,-5.74 22,0 13.86,5.74 15.56,15.56 5.74,13.86 0,22 -5.74,13.86 -15.56,15.56 -13.86,5.74 -22,0 -13.86,-5.74 -15.56,-15.56 -5.74,-13.86Z"/>
-          <circle r="7"/>
-        </g>
-        <g class="gear gear-sm" transform="translate(32 68)">
-          <path d="M0,-18 4.59,-11.09 12.73,-12.73 11.09,-4.59 18,0 11.09,4.59 12.73,12.73 4.59,11.09 0,18 -4.59,11.09 -12.73,12.73 -11.09,4.59 -18,0 -11.09,-4.59 -12.73,-12.73 -4.59,-11.09Z"/>
-          <circle r="5.5"/>
-        </g>
-        <g class="gear gear-lg" transform="translate(86 50)">
-          <path d="M0,-32 6.8,-20.92 18.81,-25.89 17.8,-12.93 30.43,-9.89 22,0 30.43,9.89 17.8,12.93 18.81,25.89 6.8,20.92 0,32 -6.8,20.92 -18.81,25.89 -17.8,12.93 -30.43,9.89 -22,0 -30.43,-9.89 -17.8,-12.93 -18.81,-25.89 -6.8,-20.92Z"/>
-          <circle r="10"/>
-        </g>
-      </svg>
-    </button>
-
-    <nav class="main-nav" aria-label="Primary navigation">
-      <a class="active" href="#home">Home</a>
-      <a href="#systems">Systems</a>
+    <a class="brand" href="#top"><span class="brand-dot"></span>EP</a>
+    <nav>
+      <a href="#work">Work</a>
       <a href="#experience">Experience</a>
-      <a href="#lab">Lab</a>
-      <a href="#connect">Connect</a>
+      <a href="#stack">Stack</a>
+      <a href="#certs">Certifications</a>
     </nav>
-
-    <a class="header-cta" href="#systems">View systems <span>↗</span></a>
+    <div class="header-actions">
+      <a class="ghost-btn" href="https://github.com/EPdacoder05" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="primary-btn" href="mailto:epinaman@yahoo.com">Contact</a>
+    </div>
   </header>
 
-  <main id="home">
+  <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <div class="eyebrow">PLATFORM ENGINEERING · DEVSECOPS · CLOUD AUTOMATION</div>
+      <div class="eyebrow">PLATFORM ENGINEERING · DEVSECOPS · CLOUD AUTOMATION</div>
+      <h1>I build secure systems that <span>ship, scale, and save money.</span></h1>
+      <p class="hero-copy">
+        Platform Engineer with 4+ years of professional experience building secure cloud infrastructure,
+        automation tooling, backend platforms, and AI-enabled security systems across regulated enterprise environments.
+      </p>
+      <div class="hero-actions">
+        <a class="primary-btn lg" href="#work">Explore my work</a>
+        <a class="ghost-btn lg" href="https://www.linkedin.com/in/ellis-pinaman/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
 
-        <h1>Welcome to<br><span>my portfolio</span><i class="hero-cursor" aria-hidden="true">_</i></h1>
+      <div class="metrics" aria-label="Career impact">
+        <article><strong data-count="126" data-prefix="$" data-suffix="K">0</strong><span>annual cloud savings</span></article>
+        <article><strong data-count="900" data-suffix="+">0</strong><span>repositories migrated</span></article>
+        <article><strong data-count="1" data-suffix="M+">0</strong><span>daily evaluations</span></article>
+        <article><strong data-count="99.8" data-suffix="%">0</strong><span>uptime supported</span></article>
+        <article><strong data-count="1000" data-suffix="+">0</strong><span>endpoints deployed</span></article>
+      </div>
+    </section>
 
-        <p class="hero-lede">
-          Platform Engineer with 4+ years building secure cloud infrastructure, automation tooling,
-          backend platforms, and AI-enabled security systems across regulated enterprise environments.
+    <section class="section intro-grid">
+      <div>
+        <div class="section-kicker">WHAT I DO</div>
+        <h2>Infrastructure engineering with a security-first operating model.</h2>
+      </div>
+      <div class="intro-copy">
+        <p>
+          My work sits at the intersection of platform engineering, cloud automation, security, and backend systems.
+          I translate operational and compliance constraints into infrastructure, pipelines, APIs, and controls that teams can actually run.
         </p>
-
-        <div class="working-set">
-          <span>working set →</span>
-          <strong id="typedText">cloud automation</strong><i aria-hidden="true">_</i>
-        </div>
-
-        <div class="hero-actions">
-          <a class="primary-action" href="#systems">Explore systems <span>↗</span></a>
-          <a class="secondary-action" href="https://github.com/EPdacoder05" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
-        </div>
-      </div>
-
-      <div class="constellation-shell" id="constellationShell">
-        <div class="constellation-title">
-          <span>PROJECT MAP</span>
-          <span id="mapStatus">drag · hover · click</span>
-        </div>
-
-        <svg class="constellation" id="constellation" viewBox="0 0 760 560" role="img" aria-label="Interactive map of Ellis Pinaman projects">
-          <defs>
-            <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stop-color="#0d6efd" stop-opacity=".55"/>
-              <stop offset="62%" stop-color="#087cff" stop-opacity=".15"/>
-              <stop offset="100%" stop-color="#087cff" stop-opacity="0"/>
-            </radialGradient>
-            <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur stdDeviation="4" result="blur"/>
-              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-            </filter>
-          </defs>
-
-          <g class="orbit-field" id="orbitField">
-            <ellipse cx="380" cy="280" rx="285" ry="190"/>
-            <ellipse cx="380" cy="280" rx="230" ry="150"/>
-            <ellipse cx="380" cy="280" rx="175" ry="110"/>
-            <circle cx="380" cy="280" r="126" fill="url(#coreGlow)" stroke="none"/>
-          </g>
-
-          <g class="project-links-lines" id="projectLines">
-            <line data-line="fabric" x1="380" y1="280" x2="380" y2="78"/>
-            <line data-line="finops" x1="380" y1="280" x2="122" y2="220"/>
-            <line data-line="ble" x1="380" y1="280" x2="650" y2="220"/>
-            <line data-line="jarvis" x1="380" y1="280" x2="170" y2="438"/>
-            <line data-line="media" x1="380" y1="280" x2="595" y2="438"/>
-          </g>
-
-          <g class="center-node" data-project="npv" tabindex="0" role="button" aria-label="NullPointVector">
-            <circle cx="380" cy="280" r="96"/>
-            <circle cx="380" cy="280" r="82"/>
-            <text x="380" y="271" text-anchor="middle" class="center-node-title">NPV</text>
-            <text x="380" y="302" text-anchor="middle" class="center-node-sub">NullPointVector</text>
-          </g>
-
-          <g class="project-node" data-project="fabric" transform="translate(380 78)" tabindex="0" role="button">
-            <circle r="39"/>
-            <path class="node-icon" d="M-14-10 0-17 14-10 0-3Zm0 9L0-8 14-1 0 6Zm0 9L0 1 14 8 0 15Z"/>
-            <text x="58" y="-4">Security</text><text x="58" y="17">Data Fabric</text>
-          </g>
-
-          <g class="project-node" data-project="finops" transform="translate(122 220)" tabindex="0" role="button">
-            <circle r="39"/>
-            <path class="node-icon" d="M-15-12h30v24h-30zM-9-5l6 5-6 5M1 5h7"/>
-            <text x="-58" y="-6" text-anchor="end">Cost-Control-</text><text x="-58" y="15" text-anchor="end">as-Code</text>
-          </g>
-
-          <g class="project-node" data-project="ble" transform="translate(650 220)" tabindex="0" role="button">
-            <circle r="39"/>
-            <path class="node-icon" d="M-18 4c10-11 26-11 36 0M-11 11c6-7 16-7 22 0M-4 18c2-3 6-3 8 0"/>
-            <text x="58" y="-6">HA-BLE-MQTT</text><text x="58" y="15">Bridge</text>
-          </g>
-
-          <g class="project-node" data-project="jarvis" transform="translate(170 438)" tabindex="0" role="button">
-            <circle r="39"/>
-            <path class="node-icon" d="M-10-2c-7-11 5-20 12-12 7-8 19 1 12 12 8 4 5 17-5 15-4 8-17 4-15-5-10 3-15-10-4-15z"/>
-            <text x="-2" y="64" text-anchor="middle">Jarvis AI</text><text x="-2" y="85" text-anchor="middle">Homelab</text>
-          </g>
-
-          <g class="project-node" data-project="media" transform="translate(595 438)" tabindex="0" role="button">
-            <circle r="39"/>
-            <path class="node-icon" d="M-16 8c-2-9 8-13 14-8 4-12 22-7 20 5 9-1 12 13 2 15h-35c-8-2-8-12-1-12z"/>
-            <text x="58" y="-6">Cloud Media</text><text x="58" y="15">Pipeline</text>
-          </g>
-        </svg>
-
-        <aside class="project-popover" id="projectPopover" aria-live="polite">
-          <div class="popover-kicker" id="popoverKicker">FLAGSHIP SYSTEM</div>
-          <h2 id="popoverTitle">NullPointVector</h2>
-          <p id="popoverDescription">AI threat-detection platform across email, SMS, and voice with FastAPI, PostgreSQL/pgvector, NLP, and hardened CI/CD.</p>
-          <div class="popover-stack" id="popoverStack">
-            <span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>pgvector</span>
-          </div>
-          <div class="popover-links">
-            <a id="popoverSource" href="https://github.com/EPdacoder05/NullPointVector" target="_blank" rel="noreferrer">Source ↗</a>
-            <a id="popoverProject" href="https://epdacoder05.github.io/NullPointVector/" target="_blank" rel="noreferrer">Project ↗</a>
-          </div>
-        </aside>
-
-        <div class="constellation-help">drag to rotate · hover to preview · click to pin</div>
+        <p class="muted">
+          Experience includes HIPAA-regulated healthcare, enterprise security collaboration, SOC 2-aligned platform controls,
+          and production engineering patterns informed by PCI DSS and CCPA requirements.
+        </p>
       </div>
     </section>
 
-    <section class="impact-strip" aria-label="Career impact">
-      <article>
-        <strong data-count="126" data-prefix="$" data-suffix="K">$126K</strong>
-        <span>annual cloud savings</span>
-      </article>
-      <article>
-        <strong data-count="900" data-suffix="+">900+</strong>
-        <span>repositories migrated</span>
-      </article>
-      <article>
-        <strong data-count="1" data-suffix="M+">1M+</strong>
-        <span>daily evaluations</span>
-      </article>
-      <article>
-        <strong data-count="99.8" data-suffix="%">99.8%</strong>
-        <span>uptime supported</span>
-      </article>
-      <article>
-        <strong data-count="1000" data-suffix="+">1,000+</strong>
-        <span>endpoints deployed</span>
-      </article>
-    </section>
-
-    <section id="systems" class="systems-section">
-      <div class="section-heading">
+    <section id="work" class="section">
+      <div class="section-head">
         <div>
-          <span>01 / FEATURED SYSTEMS</span>
-          <h2>Three systems. Real architecture. Real constraints.</h2>
+          <div class="section-kicker">SELECTED WORK</div>
+          <h2>Projects with measurable outcomes.</h2>
         </div>
-        <a href="https://github.com/EPdacoder05?tab=repositories" target="_blank" rel="noreferrer">View all repositories ↗</a>
+        <p class="section-note">Architecture, impact, and live proof — not just repo cards.</p>
       </div>
 
-      <div class="featured-grid">
-        <article class="system-card" data-card-project="npv">
-          <div class="system-card-icon npv-icon" aria-hidden="true">
-            <span>NPV</span>
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-meta">
+            <span class="pill">AI Security</span><span>01</span>
           </div>
-          <div class="system-card-copy">
-            <span class="system-index">01 · AI SECURITY</span>
-            <h3>NullPointVector</h3>
-            <p>AI threat detection across email, SMS, and voice with vector similarity search and hardened delivery controls.</p>
-            <div class="chip-row">
-              <span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>pgvector</span>
-            </div>
+          <h3>NullPointVector</h3>
+          <p>AI threat-detection platform for email, SMS, and voice channels with FastAPI, PostgreSQL/pgvector, NLP, and hardened CI/CD.</p>
+          <div class="project-impact">
+            <span><b>94%</b> detection accuracy</span>
+            <span><b>80%</b> false-positive reduction</span>
+            <span><b>&lt;200ms</b> target latency</span>
+            <span><b>1M+</b> daily evaluations</span>
           </div>
-          <a class="system-card-link" href="https://github.com/EPdacoder05/NullPointVector" target="_blank" rel="noreferrer" aria-label="Open NullPointVector repository">↗</a>
+          <div class="stack-line">Python · FastAPI · PostgreSQL · pgvector · Docker · scikit-learn · SentenceTransformers</div>
+          <div class="project-links">
+            <a href="https://epdacoder05.github.io/NullPointVector/" target="_blank" rel="noreferrer">Live demo ↗</a>
+            <a href="https://github.com/EPdacoder05/NullPointVector" target="_blank" rel="noreferrer">Source ↗</a>
+          </div>
         </article>
 
-        <article class="system-card" data-card-project="fabric">
-          <div class="system-card-icon layers-icon" aria-hidden="true">
-            <i></i><i></i><i></i>
+        <article class="project">
+          <div class="project-meta"><span class="pill">Security Analytics</span><span>02</span></div>
+          <h3>Security Data Fabric</h3>
+          <p>Three-tier medallion architecture built to normalize and enrich security telemetry from 10+ enterprise data sources.</p>
+          <div class="project-impact compact">
+            <span><b>10+</b> sources</span>
+            <span><b>3-tier</b> medallion model</span>
+            <span><b>8-level</b> RBAC design</span>
           </div>
-          <div class="system-card-copy">
-            <span class="system-index">02 · SECURITY ANALYTICS</span>
-            <h3>Security Data Fabric</h3>
-            <p>Three-tier medallion architecture normalizing and enriching telemetry across 10+ enterprise data sources.</p>
-            <div class="chip-row">
-              <span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>pgvector</span>
-            </div>
+          <div class="stack-line">Python · FastAPI · PostgreSQL · pgvector · Docker · ML</div>
+          <div class="project-links">
+            <a href="https://github.com/EPdacoder05/security-data-fabric" target="_blank" rel="noreferrer">Source ↗</a>
           </div>
-          <a class="system-card-link" href="https://github.com/EPdacoder05/security-data-fabric" target="_blank" rel="noreferrer" aria-label="Open Security Data Fabric repository">↗</a>
         </article>
 
-        <article class="system-card" data-card-project="finops">
-          <div class="system-card-icon finops-icon" aria-hidden="true">
-            <span>$</span>
+        <article class="project">
+          <div class="project-meta"><span class="pill">FinOps</span><span>03</span></div>
+          <h3>Cost-Control-as-Code</h3>
+          <p>Event-driven AWS automation for cost discovery, budget enforcement, orphan detection, and reusable security controls.</p>
+          <div class="project-impact compact">
+            <span><b>12h</b> automated sweeps</span>
+            <span><b>30+</b> security patterns</span>
+            <span><b>$126K</b> related FinOps impact</span>
           </div>
-          <div class="system-card-copy">
-            <span class="system-index">03 · FINOPS AUTOMATION</span>
-            <h3>Cost-Control-as-Code</h3>
-            <p>Event-driven AWS cost discovery, budget enforcement, orphan detection, and reusable infrastructure controls.</p>
-            <div class="chip-row">
-              <span>Pulumi</span><span>Lambda</span><span>EventBridge</span><span>Terraform</span>
-            </div>
+          <div class="stack-line">Pulumi · AWS Lambda · EventBridge · SNS · CloudWatch · Terraform</div>
+          <div class="project-links">
+            <a href="https://github.com/EPdacoder05/finops-cost-control-as-code" target="_blank" rel="noreferrer">Source ↗</a>
           </div>
-          <a class="system-card-link" href="https://github.com/EPdacoder05/finops-cost-control-as-code" target="_blank" rel="noreferrer" aria-label="Open Cost-Control-as-Code repository">↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span class="pill">IoT / Edge</span><span>04</span></div>
+          <h3>HA-BLE-MQTT Bridge</h3>
+          <p>Reverse-engineered BLE lighting protocols and built an asynchronous Python/MQTT bridge with self-healing network resilience.</p>
+          <div class="project-impact compact">
+            <span><b>24/7</b> service design</span>
+            <span><b>async</b> BLE + MQTT</span>
+            <span><b>local-first</b> control</span>
+          </div>
+          <div class="stack-line">Python · asyncio · bleak · aiomqtt · Docker · Tailscale · Home Assistant</div>
+          <div class="project-links">
+            <a href="https://epdacoder05.github.io/ha-ble-mqtt-bridge/" target="_blank" rel="noreferrer">Project page ↗</a>
+            <a href="https://github.com/EPdacoder05/ha-ble-mqtt-bridge" target="_blank" rel="noreferrer">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span class="pill">AI / Home Lab</span><span>05</span></div>
+          <h3>Jarvis AI Homelab</h3>
+          <p>Serverless voice-assistant backend translating voice commands into secure smart-home actions with secrets isolated in AWS.</p>
+          <div class="stack-line">AWS Lambda · API Gateway · Polly · Transcribe · Secrets Manager · Pulumi</div>
+          <div class="project-links">
+            <a href="https://github.com/EPdacoder05/Jarvis-AI-Assistant" target="_blank" rel="noreferrer">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span class="pill">Event Driven</span><span>06</span></div>
+          <h3>Cloud Media Pipeline</h3>
+          <p>Automated AWS media pipeline for ingestion, AI analysis, transcoding, orchestration, and smart storage lifecycle management.</p>
+          <div class="stack-line">S3 · EventBridge · Step Functions · MediaConvert · Rekognition · Transcribe</div>
+          <div class="project-links">
+            <a href="https://github.com/EPdacoder05/Media-Processing-Pipeline" target="_blank" rel="noreferrer">Source ↗</a>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="experience" class="content-section">
-      <div class="section-heading compact">
-        <div><span>02 / EXPERIENCE</span><h2>Production work before portfolio polish.</h2></div>
-      </div>
+    <section id="experience" class="section">
+      <div class="section-kicker">EXPERIENCE</div>
+      <h2>Enterprise infrastructure, platform, and automation.</h2>
       <div class="timeline">
         <article>
-          <time>2026</time>
-          <div><h3>Platform & Backend Engineer · Agility Partners</h3><p>Consolidated 20+ code-quality and security workflows, built reusable AWS infrastructure, and remediated high-severity issues ahead of release.</p></div>
-        </article>
-        <article>
-          <time>2024—2026</time>
-          <div><h3>IT Operations Analyst II · Quantum Health</h3><p>Migrated 900+ repositories from Terraform Cloud to S3, eliminating approximately $126K in annual overhead, and built security/automation systems across enterprise teams.</p></div>
-        </article>
-        <article>
-          <time>2023—2024</time>
-          <div><h3>Field Systems Administrator II · OhioHealth / TEKsystems</h3><p>Supported 12 hospital facilities, provisioned 1,000+ endpoints, and reduced provisioning time through SCCM automation.</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="content-section toolchain-section">
-      <div class="section-heading compact">
-        <div><span>03 / TOOLCHAIN</span><h2>The stack I actually use.</h2></div>
-      </div>
-      <div class="toolchain-grid">
-        <div><b>Languages</b><span>Python · SQL · Bash · PowerShell</span></div>
-        <div><b>Cloud</b><span>AWS · GCP · Azure</span></div>
-        <div><b>Platform</b><span>Terraform · Pulumi · Docker · GitHub Actions · Linux</span></div>
-        <div><b>Backend</b><span>FastAPI · SQLAlchemy · PostgreSQL · pgvector · Redis</span></div>
-        <div><b>Security</b><span>IAM · Zero Trust · security automation · HIPAA · SOC 2</span></div>
-        <div><b>AI / ML</b><span>scikit-learn · SentenceTransformers · NLP · vector search</span></div>
-      </div>
-    </section>
-
-    <section id="lab" class="content-section lab-section">
-      <div class="section-heading compact">
-        <div><span>04 / LAB</span><h2>Local systems I can break on purpose.</h2></div>
-      </div>
-      <div class="lab-grid">
-        <div class="lab-copy">
-          <p>Segmented networking, Home Assistant, Tailscale, Raspberry Pi services, BLE/MQTT automation, local AI, and containerized infrastructure.</p>
-          <div class="chip-row">
-            <span>Home Assistant</span><span>MQTT</span><span>Tailscale</span><span>Docker</span><span>Linux</span>
+          <div class="time">2026</div>
+          <div>
+            <h3>Platform & Backend Engineer <span>— Agility Partners</span></h3>
+            <p>Dublin, OH · Hybrid · Contract</p>
+            <ul>
+              <li>Consolidated 20+ code-quality and security validation workflows into reusable pull-request runners.</li>
+              <li>Built reproducible AWS CloudFront infrastructure with custom CDK constructs.</li>
+              <li>Remediated high-severity infrastructure vulnerabilities ahead of production release.</li>
+            </ul>
           </div>
+        </article>
+        <article>
+          <div class="time">2024—2026</div>
+          <div>
+            <h3>IT Operations Analyst II <span>— Quantum Health</span></h3>
+            <p>Dublin, OH · Hybrid</p>
+            <ul>
+              <li>Automated migration of 900+ repositories from Terraform Cloud to S3, eliminating approximately $126K in annual overhead.</li>
+              <li>Designed a security data fabric for the Director of InfoSec across 10+ enterprise sources.</li>
+              <li>Worked across InfoSec, DevOps, and Endpoint Systems on reliability, automation, and security posture.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="time">2023—2024</div>
+          <div>
+            <h3>Field Systems Administrator II <span>— OhioHealth / TEKsystems</span></h3>
+            <p>Columbus, OH · On-site</p>
+            <ul>
+              <li>Supported 12 hospital facilities in a HIPAA-regulated environment.</li>
+              <li>Provisioned 1,000+ endpoints and supported infrastructure serving 5,000+ clinical staff.</li>
+              <li>Reduced provisioning time 55% through SCCM automation.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section split-card">
+      <div>
+        <div class="section-kicker">ENGINEERING STACK</div>
+        <h2>Built around automation, observability, and secure defaults.</h2>
+      </div>
+      <div class="stack-groups">
+        <div><span>Languages</span><p>Python · SQL · Bash · PowerShell</p></div>
+        <div><span>Cloud</span><p>AWS · GCP · Azure</p></div>
+        <div><span>Platform</span><p>Terraform · Pulumi · Docker · GitHub Actions · CI/CD · Linux</p></div>
+        <div><span>Backend</span><p>FastAPI · SQLAlchemy · PostgreSQL · pgvector · Redis</p></div>
+        <div><span>Security</span><p>Zero Trust · IAM · Security automation · HIPAA · SOC 2 · PCI DSS · CCPA</p></div>
+        <div><span>AI / ML</span><p>scikit-learn · SentenceTransformers · NLP · vector search</p></div>
+      </div>
+    </section>
+
+    <section id="certs" class="section cert-section">
+      <div>
+        <div class="section-kicker">EDUCATION + CERTIFICATIONS</div>
+        <h2>Validated fundamentals, expanding cloud depth.</h2>
+      </div>
+      <div class="cert-list">
+        <a href="https://www.credly.com/badges/53e6aed1-a174-4c9f-a4f2-6209bba306b9/linked_in_profile" target="_blank" rel="noreferrer">
+          <span>Google Cloud</span><strong>Associate Cloud Engineer</strong><em>Verified ↗</em>
+        </a>
+        <div class="cert-pending">
+          <span>AWS</span><strong>DevOps Engineer — Professional (DOP-C02)</strong><em>In progress</em>
         </div>
-        <div class="lab-topology" aria-label="Simplified homelab topology">
-          <span class="topo-node internet">INTERNET</span>
-          <span class="topo-node gateway">GATEWAY</span>
-          <span class="topo-node dev">DEV</span>
-          <span class="topo-node iot">IOT</span>
-          <span class="topo-node security">SECURITY</span>
-          <span class="topo-node ha">HOME ASSISTANT</span>
-          <svg viewBox="0 0 700 240" aria-hidden="true">
-            <path d="M90 120H230M270 120H430M470 120H610M250 105V55M250 135V190M450 105V55M450 135V190"/>
-          </svg>
+        <div class="cert-pending">
+          <span>AWS</span><strong>Security — Specialty (SCS-C03)</strong><em>In progress</em>
+        </div>
+        <a href="https://www.credly.com/badges/8d69fd2a-ecd8-4c92-a81c-8df9495fe9b3/public_url" target="_blank" rel="noreferrer">
+          <span>CompTIA</span><strong>Security+</strong><em>Verified ↗</em>
+        </a>
+        <a href="https://www.credly.com/badges/e0b80a18-e45e-4b09-934b-8b467f5f014a/linked_in_profile" target="_blank" rel="noreferrer">
+          <span>CompTIA</span><strong>Network+</strong><em>Verified ↗</em>
+        </a>
+        <a href="https://www.credly.com/badges/86a22d35-4dc7-4cb9-8c9d-1583aa9942c1/public_url" target="_blank" rel="noreferrer">
+          <span>CompTIA</span><strong>A+</strong><em>Verified ↗</em>
+        </a>
+        <div class="education-card">
+          <span>Western Governors University</span>
+          <strong>B.S. Computer Science</strong>
+          <em>In progress · ~50% complete · Expected 2027</em>
         </div>
       </div>
     </section>
 
-    <section id="connect" class="connect-section">
-      <span>05 / CONNECT</span>
-      <h2>Build something useful.</h2>
-      <div class="connect-links">
-        <a href="mailto:epinaman@yahoo.com">Email ↗</a>
-        <a href="https://www.linkedin.com/in/ellis-pinaman/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        <a href="https://github.com/EPdacoder05" target="_blank" rel="noreferrer">GitHub ↗</a>
+    <section class="section privacy-card">
+      <div>
+        <div class="section-kicker">PRIVACY BY DESIGN</div>
+        <h2>Building toward global privacy readiness.</h2>
+      </div>
+      <p>
+        NullPointVector's product roadmap includes privacy-by-design controls for consumer deployment:
+        data minimization, explicit retention rules, user-access and deletion workflows, encryption,
+        auditable consent/processing flows, and regional compliance readiness.
+      </p>
+      <div class="privacy-tags">
+        <span>HIPAA experience</span><span>SOC 2-aligned controls</span><span>PCI DSS awareness</span><span>CCPA readiness</span><span>GDPR roadmap</span>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div>
+        <div class="section-kicker">LET'S BUILD</div>
+        <h2>Need infrastructure that is secure, observable, and automated?</h2>
+      </div>
+      <div class="cta-actions">
+        <a class="primary-btn lg" href="mailto:epinaman@yahoo.com">epinaman@yahoo.com</a>
+        <a class="ghost-btn lg" href="https://github.com/EPdacoder05" target="_blank" rel="noreferrer">GitHub ↗</a>
       </div>
     </section>
   </main>
 
   <footer>
     <span>© 2026 Ellis Pinaman</span>
-    <span>Columbus, OH</span>
-    <span>Platform Engineering · DevSecOps · Cloud Automation</span>
+    <span>Platform Engineering · DevSecOps · AI Systems</span>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
