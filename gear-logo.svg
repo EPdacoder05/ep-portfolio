@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 96" role="img" aria-label="Three animated gears">
+  <style>
+    :root { --gear-blue: #58b4ff; --gear-core: #0a8cff; --gear-fill: #0b1118; }
+    .gear-body { fill: var(--gear-fill); stroke: var(--gear-blue); stroke-width: 1.6; }
+    .gear-ring { fill: none; stroke: var(--gear-core); stroke-width: 5; }
+    .gear { transform-box: fill-box; transform-origin: center; }
+    .gear-lg { animation: ccw 6.5s linear infinite; }
+    .gear-md { animation: cw 8s linear infinite; }
+    .gear-sm { animation: cw 11s linear infinite; }
+    @keyframes cw { to { transform: rotate(360deg); } }
+    @keyframes ccw { to { transform: rotate(-360deg); } }
+    @media (prefers-reduced-motion: reduce) { .gear { animation: none; } }
+  </style>
+  <g class="gear gear-md" transform="translate(32 30)">
+    <path class="gear-body" d="M0,-22 5.74,-13.86 15.56,-15.56 13.86,-5.74 22,0 13.86,5.74 15.56,15.56 5.74,13.86 0,22 -5.74,13.86 -15.56,15.56 -13.86,5.74 -22,0 -13.86,-5.74 -15.56,-15.56 -5.74,-13.86Z"/>
+    <circle class="gear-ring" r="7"/>
+  </g>
+  <g class="gear gear-sm" transform="translate(32 68)">
+    <path class="gear-body" d="M0,-18 4.59,-11.09 12.73,-12.73 11.09,-4.59 18,0 11.09,4.59 12.73,12.73 4.59,11.09 0,18 -4.59,11.09 -12.73,12.73 -11.09,4.59 -18,0 -11.09,-4.59 -12.73,-12.73 -4.59,-11.09Z"/>
+    <circle class="gear-ring" r="5.5"/>
+  </g>
+  <g class="gear gear-lg" transform="translate(86 50)">
+    <path class="gear-body" d="M0,-32 6.8,-20.92 18.81,-25.89 17.8,-12.93 30.43,-9.89 22,0 30.43,9.89 17.8,12.93 18.81,25.89 6.8,20.92 0,32 -6.8,20.92 -18.81,25.89 -17.8,12.93 -30.43,9.89 -22,0 -30.43,-9.89 -17.8,-12.93 -18.81,-25.89 -6.8,-20.92Z"/>
+    <circle class="gear-ring" r="10"/>
+  </g>
+</svg>
